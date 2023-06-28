@@ -1,10 +1,12 @@
 # Weaviate Image Search Engine
 
-Image search engine powered by Vector database and ResNet-50.
+Weaviate is a vector database that allows you to create and query embeddings with pre-trained deep learning models. It integrates with ResNet-50 to vectorize images, making it possible to build an image similarity search engine with relative ease.
 
 ## Installation and Setup
 
 1. Run docker compose file:
+
+To run Weaviate locally, use their Docker Compose config that supports the image module.
 
 ```sh
 docker compose up -d
